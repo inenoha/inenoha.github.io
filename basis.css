@@ -1,0 +1,49 @@
+/*
+ * basis.css
+*/
+
+body {
+    background-color: #FBF5E6;
+    background-image: url("./img/clausius1850.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: right bottom;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+address{
+/*    font-style: normal; */
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+ol.topicPath {
+    margin-left: -1em; 
+}
+ol.topicPath li {
+     display: inline;
+     line-height: 110%;
+     list-style-type: none;
+}
+ol.topicPath li:before{
+    content: " > ";
+}
+ol.topicPath li:first-child:before {
+    content:"";
+}
+ol.topicPath li a {
+     padding-right: 10px;
+/*     background: url(img/glue.gif) no-repeat right center; */
+}
+
