@@ -22,6 +22,14 @@ h3 {
 
 }
 
+h3.title:before {
+    content: "■";
+}
+
+.category {
+    font-size: smaller;
+}
+
 address{
 /*    font-style: normal; */
     margin-top: 1.5em;
