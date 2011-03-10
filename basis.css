@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: right bottom;
+    line-height: 1.7em;
 }
 
 h1 {
