@@ -56,3 +56,25 @@ ol.topicPath li a {
 /*     background: url(img/glue.gif) no-repeat right center; */
 }
 
+ol.langPath {
+/*    margin-left: -1em;  */
+    text-align: right;
+    float: right;
+}
+ol.langPath:before{
+    content: "[";
+}
+ol.langPath:after{
+    content: "]";
+}
+ol.langPath li {
+     display: inline;
+     line-height: 100%;
+     list-style-type: none;
+}
+ol.langPath li:before{
+    content: "/ ";
+}
+ol.langPath li:first-child:before {
+    content:"";
+}
