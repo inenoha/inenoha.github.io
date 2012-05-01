@@ -31,6 +31,10 @@ h3.title:before {
     font-size: smaller;
 }
 
+.variable {
+    font-style: italic;
+}
+
 address{
 /*    font-style: normal; */
     margin-top: 1.5em;
