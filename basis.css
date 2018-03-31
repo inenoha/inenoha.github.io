@@ -4,10 +4,10 @@
 
 body {
     background-color: #FBF5E6;
-    background-image: url("./img/clausius1850.png");
+/*    background-image: url("./img/clausius1850.png");
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-position: right bottom;
+    background-position: right bottom; */
     line-height: 1.7em;
 }
 
