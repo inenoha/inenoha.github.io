@@ -35,6 +35,12 @@ h3.title:before {
     font-style: italic;
 }
 
+img.book{
+    float: right;
+    border-style: none;
+}
+
+
 address{
 /*    font-style: normal; */
     margin-top: 1.5em;
